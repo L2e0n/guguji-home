@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>咕咕鸡大作战</title>
+<meta name="description" content="咕咕鸡大作战工具首页：基金估值、大衍筮法、证券从业考试题库。" />
+<style>
+:root{--primary:#fbc02d;--secondary:#2c3e50;--bg:#fffdf2;--card:#fff;--border:#ffecb3;--muted:#999}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:radial-gradient(circle at top,#fff8d8 0,#fffdf2 42%,#fff 100%);color:#333;display:flex;align-items:center;justify-content:center;padding:18px}
+.shell{width:100%;max-width:980px}
+.hero{text-align:center;margin-bottom:24px}
+.logo{font-size:46px;line-height:1;margin-bottom:8px}
+h1{margin:0;color:var(--secondary);font-size:32px;letter-spacing:.03em}
+.hero p{margin:8px 0 0;color:#888;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.card{display:flex;flex-direction:column;min-height:220px;text-decoration:none;color:var(--secondary);background:var(--card);border:1px solid var(--border);border-radius:22px;padding:22px;box-shadow:0 10px 30px rgba(251,192,45,.10);transition:.18s;position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(251,192,45,.16),transparent 42%);opacity:.75;pointer-events:none}
+.card:hover{transform:translateY(-4px);border-color:var(--primary);box-shadow:0 14px 38px rgba(251,192,45,.22)}
+.icon{font-size:42px;margin-bottom:18px;position:relative}
+.title{font-size:20px;font-weight:800;margin-bottom:8px;position:relative}
+.desc{font-size:13px;color:#777;line-height:1.7;position:relative;flex:1}
+.link{margin-top:18px;font-size:12px;color:#b8860b;font-weight:700;position:relative}
+.footer{text-align:center;color:#bbb;font-size:12px;margin-top:26px}
+.badge{display:inline-flex;align-items:center;gap:6px;background:#fff7d1;border:1px solid #ffe58a;color:#9a6a00;border-radius:999px;padding:6px 12px;font-size:12px;margin-top:14px}
+@media(max-width:760px){body{align-items:flex-start}.grid{grid-template-columns:1fr}.card{min-height:160px}h1{font-size:26px}.logo{font-size:40px}}
+</style>
+</head>
+<body>
+<main class="shell">
+  <section class="hero">
+    <div class="logo">🐤</div>
+    <h1>咕咕鸡大作战</h1>
+    <p>一个把投资、易学和刷题都收进来的小工具箱</p>
+    <div class="badge">guguji.icu · 工具首页</div>
+  </section>
+
+  <section class="grid" aria-label="咕咕鸡工具入口">
+    <a class="card" href="https://ji.guguji.icu">
+      <div class="icon">📈</div>
+      <div class="title">基金估值仪表盘</div>
+      <div class="desc">查看基金净值、估值、组合收益和历史记录。原咕咕鸡基金估值功能迁移至这里。</div>
+      <div class="link">进入 ji.guguji.icu →</div>
+    </a>
+
+    <a class="card" href="https://yi.guguji.icu">
+      <div class="icon">🔮</div>
+      <div class="title">大衍筮法</div>
+      <div class="desc">按《周易·系辞》三变十八演推卦，支持本卦、变卦与 AI 白话解读。</div>
+      <div class="link">进入 yi.guguji.icu →</div>
+    </a>
+
+    <a class="card" href="https://test.guguji.icu">
+      <div class="icon">📚</div>
+      <div class="title">证券从业考试题库</div>
+      <div class="desc">证券从业备考刷题工具，用来练习、复盘和巩固知识点。</div>
+      <div class="link">进入 test.guguji.icu →</div>
+    </a>
+  </section>
+
+  <footer class="footer">© 2026 咕咕鸡大作战</footer>
+</main>
+</body>
+</html>
