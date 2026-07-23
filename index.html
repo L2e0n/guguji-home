@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>咕咕鸡大作战</title>
-<meta name="description" content="咕咕鸡大作战工具首页：基金估值、大衍筮法、证券从业考试题库。" />
+<meta name="description" content="咕咕鸡大作战工具首页：基金估值、QD鸡额度监控、大衍筮法、证券从业考试题库。" />
 <style>
 :root{--primary:#fbc02d;--secondary:#2c3e50;--bg:#fffdf2;--card:#fff;--border:#ffecb3;--muted:#999}
 *{box-sizing:border-box}
@@ -14,7 +14,7 @@ body{margin:0;min-height:100vh;font-family:"PingFang SC","Microsoft YaHei",sans-
 .logo{font-size:46px;line-height:1;margin-bottom:8px}
 h1{margin:0;color:var(--secondary);font-size:32px;letter-spacing:.03em}
 .hero p{margin:8px 0 0;color:#888;font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:26px}
 .card{display:flex;flex-direction:column;min-height:220px;text-decoration:none;color:var(--secondary);background:var(--card);border:1px solid var(--border);border-radius:22px;padding:22px;box-shadow:0 10px 30px rgba(251,192,45,.10);transition:.18s;position:relative;overflow:hidden}
 .card:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(251,192,45,.16),transparent 42%);opacity:.75;pointer-events:none}
 .card:hover{transform:translateY(-4px);border-color:var(--primary);box-shadow:0 14px 38px rgba(251,192,45,.22)}
@@ -40,6 +40,14 @@ h1{margin:0;color:var(--secondary);font-size:32px;letter-spacing:.03em}
       <div class="title">基金估值仪表盘</div>
       <div class="desc">查看基金净值、估值、组合收益和历史记录。原咕咕鸡基金估值功能迁移至这里。</div>
       <div class="link">进入 ji.guguji.icu →</div>
+    </a>
+
+
+    <a class="card" href="https://qdii.guguji.icu">
+      <div class="icon">🐤</div>
+      <div class="title">QD鸡 · 额度监控</div>
+      <div class="desc">跟踪 QDII 基金申购状态与单日购买限额变化，查看净值、重仓与变更时间线。</div>
+      <div class="link">进入 qdii.guguji.icu →</div>
     </a>
 
     <a class="card" href="https://yi.guguji.icu">
