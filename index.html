@@ -37,7 +37,8 @@ h1{margin:0;color:var(--secondary);font-size:22px;letter-spacing:.03em}
   opacity:.7;pointer-events:none;
 }
 .card:hover{transform:translateY(-2px);border-color:var(--primary);box-shadow:0 10px 24px rgba(251,192,45,.2)}
-.icon{font-size:22px;margin-bottom:6px;position:relative;line-height:1}
+.icon{font-size:22px;margin-bottom:6px;position:relative;line-height:1;display:flex;align-items:center;min-height:22px}
+.icon img{width:22px;height:22px;display:block;border-radius:5px}
 .title{font-size:15px;font-weight:800;margin-bottom:4px;position:relative}
 .desc{font-size:11px;color:#777;line-height:1.45;position:relative;flex:1;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
@@ -85,8 +86,8 @@ h1{margin:0;color:var(--secondary);font-size:22px;letter-spacing:.03em}
     </a>
 
     <a class="card" href="https://gu.guguji.icu">
-      <div class="icon">📡</div>
-      <div class="title">资金流向</div>
+      <div class="icon"><img src="./favicon.svg" alt=""></div>
+      <div class="title">缅A资金大作战</div>
       <div class="desc">A 股行业/概念资金流向、盘中轨迹与量能。</div>
       <div class="link">gu.guguji.icu →</div>
     </a>
